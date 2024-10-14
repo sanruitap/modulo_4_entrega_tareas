@@ -13,3 +13,4 @@ document.getElementById('fetch-button').addEventListener('click', () => {
         })
         .catch(error => console.error('Error:', error));
 });
+
