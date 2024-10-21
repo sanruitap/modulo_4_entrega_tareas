@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .app-container {
+    text-align: center;
+  }
+  
+  .character-card, .clock-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .character-card h1, .clock-card h2 {
+    background-color: #32a852; /* Verde */
+    padding: 8px;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+  }
+  
+  .character-card img, .clock-card p {
+    width: 100%;
+    height: auto;
+    margin: 16px 0;
+  }
+  
+  .character-card .details, .clock-card p {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+  }
+  
